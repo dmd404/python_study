@@ -22,6 +22,7 @@ while not end_of_game:
 
     print(display)
 
+    # check if the user has got all letters
     if "_" not in display:
         end_of_game = True
         print('You win')
