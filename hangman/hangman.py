@@ -1,68 +1,17 @@
 import random
+from hangman_art import logo, stages
+from hangman_words import word_list
+import os
 
-stages = ['''
-  +---+
-  |   |
-  O   |
- /|\  |
- / \  |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
- /    |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|\  |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
- /|   |
-      |
-      |
-=========''', '''
-  +---+
-  |   |
-  O   |
-  |   |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-''', '''
-  +---+
-  |   |
-      |
-      |
-      |
-      |
-=========
-''']
+
+def clear():
+   os.system('clear')
+
+print(logo)
 end_of_game = False
-word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
 
 lives = 6
-#Testing code
-print(f'Pssst, the solution is {chosen_word}.')
 
 #create blanks
 display = []
@@ -71,6 +20,10 @@ for letter in chosen_word:
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
+    clear()
+
+    if guess in display:
+        print("You've already guessed this letter.")
     # check guessed letter
     for i, letter in enumerate(chosen_word):
         if letter == guess:
@@ -78,6 +31,7 @@ while not end_of_game:
 
     # If guess is not a letter in the chosen_word, then reduce 'lives' by 1.
     if guess not in chosen_word:
+        print(f'{guess} is not in the word. You lose a life.')
         lives -= 1
         if lives == 0:
             end_of_game = True
