@@ -8,15 +8,20 @@ print(f'Pssst, the solution is {chosen_word}.')
 #For each letter in the chosen_word, add a "_" to 'display'.
 display = []
 for letter in chosen_word:
-  display.append('_')
+    display.append('_')
 
-guess = input("Guess a letter: ").lower()
+# Use a while loop to let the user guess again.
+end_of_game = False
 
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
 
-#If the letter at that position matches 'guess' then reveal that letter in the display at that position.
-for i, letter in enumerate(chosen_word):
-  if letter == guess:
-    display[i] = letter
+    for i, letter in enumerate(chosen_word):
+        if letter == guess:
+            display[i] = letter
 
-#Print 'display' and you should see the guessed letter in the correct position and every other letter replace with "_".
-print(display)
+    print(display)
+
+    if "_" not in display:
+        end_of_game = True
+        print('You win')
