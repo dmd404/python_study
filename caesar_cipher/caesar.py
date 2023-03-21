@@ -1,3 +1,6 @@
+from art import logo
+
+
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
@@ -18,6 +21,8 @@ def caesar(start_text, shift_amount, cipher_direction):
             end_text += char
     
     print(f'The {cipher_direction}d text is {final_text}')
+
+print(logo)
 
 rerun = True
 while rerun:
