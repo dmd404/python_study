@@ -10,7 +10,8 @@ def encrypt(plain_text, shift_amount):
   encrypted_txt = ""
   for letter in plain_text:
     original = alphabet.index(letter)
-    new_letter = alphabet[original + shift_amount]
+    new_position = (original + shift_amount) % 26  # in case index runs out of range
+    new_letter = alphabet[new_position]
     encrypted_txt += new_letter
   
   print(encrypted_txt)
