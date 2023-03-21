@@ -4,9 +4,7 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
-# Create a function called 'encrypt' that takes the 'plain_text' and 'shift_amount' as inputs.
 def encrypt(plain_text, shift_amount):
-  # shift each letter of the 'plain_text' forwards in the alphabet by the 'shift_amount' and print the encrypted text
   encrypted_txt = ""
   for letter in plain_text:
     original = alphabet.index(letter)
@@ -16,5 +14,20 @@ def encrypt(plain_text, shift_amount):
   
   print(encrypted_txt)
 
-encrypt(text, shift)
+# Create a decrypt function 
+def decrypt(encrypted_text, shift_amount):
+  decrypted_txt = ""
+  # shift each letter of the 'text' *backwards* in the alphabet by the shift amount and print the decrypted text.  
+  for letter in encrypted_text:
+    position = alphabet.index(letter)
+    new_position = (position - shift_amount) % 26
+    decrypted_txt += alphabet[new_position]
+  print(decrypted_txt)
+  
+
+# Check if the user wanted to encrypt or decrypt the message 
+if direction == 'encode':
+  encrypt(text, shift)
+elif direction == 'decode':
+  decrypt(text, shift)
                            
