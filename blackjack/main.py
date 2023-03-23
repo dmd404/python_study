@@ -1,10 +1,5 @@
 import random
 
-player_cards = []
-computer_cards = []
-player_score = 0
-computer_score = 0
-
 
 def deal_card():
     """
@@ -15,9 +10,37 @@ def deal_card():
     return random.choice(cards)
 
 
+def calculate_score(cards):
+    """
+    :param cards:
+    :return:
+    take a list of cards and return the score calculated from the cards
+    """
+    if sum(cards) == 21 and len(cards) == 2:
+        return 0
+    if 11 in cards and sum(cards) > 21:
+        cards.remove(11)
+        cards.append(1)
+    return sum(cards)
+
+
+player_cards = []
+computer_cards = []
+is_game_over = False
+
 for _ in range(2):
     player_cards.append(deal_card())
     computer_cards.append(deal_card())
+
+player_score = calculate_score(player_cards)
+computer_score = calculate_score(computer_cards)
+print(f" Your hand: {player_cards}, current score: {player_score}")
+print(f" Computer's first card: {computer_cards[0]}")
+
+if player_score == 0 or computer_score == 0 or player_score > 21:
+    is_game_over = True
+
+
 
 
 def score_check(player, computer):
