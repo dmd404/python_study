@@ -6,7 +6,10 @@ X, O, BLANK = 'X', 'O', ' '  # 문자열 값을 위한 상수
 def main():
     """틱택토 게임을 실행한다."""
     print('틱택토 게임에 오신 당신을 환영합니다!')
-    gameBoard = TTTBoard()  # TTTBoard 객체를 생성한다
+        if input('미니 보드를 사용하겠습니까? Y/N: ').lower().startswith('y'):
+        gameBoard = MiniBoard()
+    else:
+        gameBoard = TTTBoard()
     currentPlayer, nextPlayer = X, O  # X가 선공, O가 후공
 
     while True:
@@ -74,5 +77,26 @@ class TTTBoard:
         """말판의 space를 player로 설정한다"""
         self._spaces[space] = player
 
+class MiniBoard(TTTBoard):
+    def getBoardStr(self):
+        """말판의 텍스트 표현을 작게 하는 문자열을 반환한다."""
+        # 공백 한 칸을 '.'으로 치환한다
+        for space in ALL_SPACES:
+            if self._spaces[space] == BLANK:
+                self._spaces[space] = '.'
+
+        boardStr = f'''
+            {self._spaces['1']}{self._spaces['2']}{self._spaces['3']} 123
+            {self._spaces['4']}{self._spaces['5']}{self._spaces['6']} 456
+            {self._spaces['7']}{self._spaces['8']}{self._spaces['9']} 789
+        '''
+
+        # 공백 한 칸을 '.'으로 치환한다
+        for space in ALL_SPACES:
+            if self._spaces[space] == '.':
+                self._spaces[space] = BLANK
+        return boardSt
+    
+    
 if __name__ == '__main__':
     main()  # 임포트하지 않고 이 모듈이 실행되면 main()을 호출한다.
