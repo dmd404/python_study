@@ -29,6 +29,15 @@ class WizCoin:
         # 주의: __init__() 메소드에는 절대 반환문이 없다.
 
     @property
+    def total(self):
+        """이 WizCoin 객체에 속한 모든 동전의 가치 총합."""
+        return (self.galleons * 17 * 29) + (self.sickles * 29) + (self.knuts)
+
+    def weight(self):
+        """Returns the weight of the coins in grams."""
+        return (self.galleons * 31.103) + (self.sickles * 11.34) + (self.knuts * 5.0)
+
+    @property
     def galleons(self):
         """이 객체의 galleon 동전 숫자를 반환한다."""
         return self._galleons
