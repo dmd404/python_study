@@ -1,48 +1,54 @@
 from turtle import Turtle, Screen
 import random
+import colorgram
 
+raw_colors = []
+colors = colorgram.extract('image.jpeg', 30)
+for color in colors:
+    r = color.rgb.r
+    g = color.rgb.g
+    b = color.rgb.b
+    new_color = (r, g, b)
+    raw_colors.append(new_color)
+
+color_list = raw_colors[3:]
 screen = Screen()
 tim = Turtle()
-tim.shape('turtle')  # change shape to turtle
-tim.color('blue')  # change color
-
-# # Challenge 1: draw a square
-# for i in range(4):
-#     tim.fd(100)
-#     tim.rt(90)
-
-
-# # Challenge 2: draw a dashed line
-# for _ in range(10):
-#     tim.fd(10)
-#     tim.pu()
-#     tim.fd(10)
-#     tim.pd()
-#
-#
-# def dashed_line(turtle, num_lines):
-#     for _ in range(num_lines):
-#         turtle.fd(10)
-#         turtle.pu()
-#         turtle.fd(10)
-#         turtle.pd()
-# # dashed_line(tim, 5)
-
-# Challenge 3: Draw different shapes triangle to decagon
-# each of the shape drawn with random color
-# each sides with lengh of 100
-def draw_shape(length, num_sides):
-    r = random.randint(0, 255)
-    g = random.randint(0, 255)
-    b = random.randint(0, 255)
-    tim.color((r, g, b))
-    for _ in range(num_sides):
-        tim.fd(length)
-        tim.rt(360/num_sides)
-
-
 screen.colormode(255)
-for _ in range(3, 11):
-    draw_shape(100, _)
+tim.penup()
 
-screen.exitonclick()  # window disappears when clicked on
+# def paint(x, y):
+#     tim.setx(x)
+#     tim.sety(y)
+#     for _ in range(10):
+#         tim.dot(20, random.choice(color_list))
+#         tim.penup()
+#         tim.fd(50)
+#
+#
+# startx = -250
+# starty = -200
+# for _ in range(10):
+#     paint(startx, starty)
+#     starty += 50
+
+tim.setheading(225)
+tim.fd(300)
+tim.setheading(0)
+number_of_dots = 100
+tim.speed(0)
+tim.penup()
+tim.hideturtle()
+for dot_count in range(1, number_of_dots+1):
+    tim.dot(20, random.choice(color_list))
+    tim.forward(50)
+
+    if dot_count % 10 == 0:
+        tim.setheading(90)
+        tim.fd(50)
+        tim.setheading(180)
+        tim.fd(500)
+        tim.setheading(0)
+
+screen.exitonclick()
+
