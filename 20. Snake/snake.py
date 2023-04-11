@@ -32,13 +32,17 @@ class Snake:
         self.head[0].forward(MOVE_DISTANCE)
 
     def up(self):
-        self.head[0].setheading(UP)
+        if self.head.heading() != DOWN:
+            self.head[0].setheading(UP)
 
     def down(self):
-        self.head[0].setheading(DOWN)
+        if self.head.heading() != UP:
+            self.head[0].setheading(DOWN)
 
     def left(self):
-        self.head[0].setheading(LEFT)
+        if self.head.heading() != RIGHT:
+            self.head[0].setheading(LEFT)
 
     def right(self):
-        self.head[0].setheading(RIGHT)
+        if self.head.heading() != LEFT:
+            self.head[0].setheading(RIGHT)
