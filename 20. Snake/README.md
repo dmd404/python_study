@@ -1,8 +1,6 @@
 # Snake Game
 
 ## Part 1
-
----
 1. Create snake body 
    1. 3 squares lined up next to each other
 2. Move the snake
@@ -11,8 +9,6 @@
    1. keyboard controls
 
 ## Part 2
-
----
 4. Detect collision with food
    1. new food gets created randomly
    2. make snake longer
