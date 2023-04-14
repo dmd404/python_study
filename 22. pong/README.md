@@ -35,3 +35,10 @@ y_pos = 0
 - x_pos = 0
 - y_pos = 0
 - when the screen refreshes the ball moves automatically on the screen
+- used time module to slow down the ball's speed
+
+
+# 5. Detect collision with wall and bounce
+- only need to detect collision on the top and bottom walls
+  - if the ball hits left or right side edges that means score for the other side
+
