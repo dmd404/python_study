@@ -2,12 +2,12 @@ from turtle import Turtle
 
 
 class Paddle(Turtle):
-    def __init__(self):
+    def __init__(self, position):
         super().__init__()
         self.penup()
         self.color('white')
         self.shape('square')
-        self.goto(350, 0)
+        self.goto(position)
         self.turtlesize(5, 1)
         self.speed('fastest')
 

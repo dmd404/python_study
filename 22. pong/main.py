@@ -1,8 +1,8 @@
 from turtle import Screen
 from paddle import Paddle
 
-paddle = Paddle()
-
+r_paddle = Paddle((350, 0))
+l_paddle = Paddle((-350, 0))
 
 def main():
     screen = Screen()
@@ -13,8 +13,10 @@ def main():
 
 # move paddle using keystrokes
     screen.listen()
-    screen.onkey(paddle.up, 'Up')
-    screen.onkey(paddle.down, 'Down')
+    screen.onkey(r_paddle.up, 'Up')
+    screen.onkey(r_paddle.down, 'Down')
+    screen.onkey(l_paddle.up, 'w')
+    screen.onkey(l_paddle.down, 's')
 
     game_is_on = True
     while game_is_on:
