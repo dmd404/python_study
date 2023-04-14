@@ -1,6 +1,7 @@
 from turtle import Screen
 from paddle import Paddle
 from ball import Ball
+from scoreboard import Scoreboard
 import time
 
 screen = Screen()
@@ -13,6 +14,7 @@ r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 
 ball = Ball()
+scoreboard = Scoreboard()
 
 def main():
 # move paddle using keystrokes
@@ -24,9 +26,8 @@ def main():
 
     game_is_on = True
 
-
     while game_is_on:
-        time.sleep(0.1)  # sleep while loop between updates
+        time.sleep(ball.pace)  # sleep while loop between updates
         screen.update()
         ball.move()
 
@@ -42,10 +43,11 @@ def main():
         # Detect when r_paddle misses
         if ball.xcor() > 400:
             ball.reset()
-
+            scoreboard.l_point()
         # Detect when l_paddle misses
         if ball.xcor() < -400:
             ball.reset()
+            scoreboard.r_point()
 
 
     screen.exitonclick()
