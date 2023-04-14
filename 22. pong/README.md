@@ -7,10 +7,10 @@
 - [create another paddle](#2--3-create-and-move-a-paddle)
   - two-player game
 - [create the ball and make it move](#4-create-the-ball-and-make-it-move)
-- detect collision with wall and bounce
-- detect collision with paddle
-- detect when paddle misses
-- keep score
+- [detect collision with wall and bounce](#5-detect-collision-with-wall-and-bounce)
+- [detect collision with paddle](#6-detect-collision-with-paddle)
+- [detect when paddle misses](#7-detect-when-paddle-misses)
+- [keep score](#8-keep-score)
 ---
 <br>
 
@@ -42,3 +42,19 @@ y_pos = 0
 - only need to detect collision on the top and bottom walls
   - if the ball hits left or right side edges that means score for the other side
 
+# 6. Detect collision with paddle
+- use .distance() method to check
+- ball has width of 20 pixels
+- paddle has width of 20 pixels
+- problem occures when the ball hits off the center
+  - distance measure the center of the ball from the center of the paddle
+  - solution?
+    - if the ball has gone past certain point on x-axis, and within 50 pixels distance
+
+
+
+
+# 7. Detect when paddle misses
+
+
+# 8. Keep score
