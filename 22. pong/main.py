@@ -1,15 +1,21 @@
 from turtle import Screen
 from paddle import Paddle
+from ball import Ball
+import time
+
+screen = Screen()
+screen.title('My pong game')
+screen.bgcolor('black')
+screen.setup(width=800, height=600)
+screen.tracer(0)
 
 r_paddle = Paddle((350, 0))
 l_paddle = Paddle((-350, 0))
 
+ball = Ball()
+
 def main():
-    screen = Screen()
-    screen.title('My pong game')
-    screen.bgcolor('black')
-    screen.setup(width=800, height=600)
-    screen.tracer(0)
+
 
 # move paddle using keystrokes
     screen.listen()
@@ -20,7 +26,9 @@ def main():
 
     game_is_on = True
     while game_is_on:
+        time.sleep(0.1)  # sleep while loop between updates
         screen.update()
+        ball.move()
 
     screen.exitonclick()
 
