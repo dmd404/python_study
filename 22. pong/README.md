@@ -52,8 +52,6 @@ y_pos = 0
     - if the ball has gone past certain point on x-axis, and within 50 pixels distance
 
 
-
-
 # 7. Detect when paddle misses
 
 
