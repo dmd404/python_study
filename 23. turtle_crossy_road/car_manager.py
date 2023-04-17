@@ -3,7 +3,7 @@ import random
 
 COLORS = ['red', 'blue', 'green', 'yellow', 'black', 'brown', 'purple', 'orange']
 STARTING_MOVE_DISTANCE = 5
-MOVE_INCREMENT = 10
+MOVE_INCREMENT = 1
 
 
 class CarManager():

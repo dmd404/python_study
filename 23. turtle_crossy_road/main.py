@@ -11,6 +11,7 @@ scoreboard = Scoreboard()
 def main():
     screen.setup(600, 600)
     screen.tracer(0)
+    screen.title('Turtle Crossy Road')
 
     player = Player()
     car_manager = CarManager()
