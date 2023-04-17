@@ -2,7 +2,7 @@ from turtle import Screen
 import random
 import time
 from player import Player
-from car_manager import Car
+from car_manager import CarManager
 
 colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 screen = Screen()
@@ -13,6 +13,7 @@ def main():
     screen.tracer(0)
 
     player = Player()
+    car_manager = CarManager()
 
     screen.listen()
     screen.onkey(player.up, 'Up')
@@ -22,6 +23,8 @@ def main():
     while game_is_on:
         time.sleep(0.1)
         screen.update()
+        car_manager.create_car()
+        car_manager.move_cars()
 
         # car.move()
         # for car in all_cars:
