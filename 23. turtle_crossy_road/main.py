@@ -1,9 +1,12 @@
 from turtle import Screen
+import random
 import time
 from player import Player
+from car_manager import Car
 
+colors = ['red', 'orange', 'yellow', 'green', 'blue', 'purple']
 screen = Screen()
-
+all_cars = []
 
 def main():
     screen.setup(600, 600)
@@ -17,11 +20,15 @@ def main():
 
     game_is_on = True
     while game_is_on:
-        screen.update()
         time.sleep(0.1)
+        screen.update()
+
+        # car.move()
+        # for car in all_cars:
+        #     car.forward(2)
 
     # Detect collision with top wall
-        if player.ycor() > 260:
+        if player.ycor() > 280:
             player.goto(0, -270)
 
     screen.exitonclick()
