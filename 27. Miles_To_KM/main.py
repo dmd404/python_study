@@ -1,39 +1,33 @@
 from tkinter import *
 
+def miles_to_km():
+    miles = float(miles_input.get())
+    km = round(miles * 1.609)
+    km_result_label.config(text=f"{km}")
+
+
+
 window = Tk()
 window.title('Mile to Km Converter')
-window.minsize(width=500, height=300)
-window.config(padx=100, pady=100)
+window.config(padx=20, pady=20)
+
+miles_input = Entry(width=7)
+miles_input.grid(column=1, row=0)
 
 
-def button_clicked():
-    # my_label['text'] = 'I Got Clicked'
-    new_text = int(input.get())
-    km.config(text=new_text*1.6)
+miles_label = Label(text='Miles')
+miles_label.grid(column=2, row=0)
 
+is_equal_label = Label(text='is equal to')
+is_equal_label.grid(column=0, row=1)
 
-# text
-# txt_miles = Label(text="Miles", font=('Arial', 24, 'bold'))
-# txt_miles.config(text='test')
-# txt_miles.grid(column=2, row=0)
-# txt2 = Label(text="is equal to", font=('Arial', 24, 'bold'))
-# txt3 = Label(text="Km", font=('Arial', 24, 'bold'))
-my_txt = Label(text='Miles', font=('Arial', 24, 'bold'))
-my_txt.grid(column=2, row=0)
+km_result_label = Label(text=0)
+km_result_label.grid(column=1, row=1)
 
-my_txt1 = Label(text='is equal to', font=('Arial', 24, 'bold'))
-my_txt2 = Label(text='Km', font=('Arial', 24, 'bold'))
-km = Label(text=0)
-km.grid(column=1, row=1)
-my_txt1.grid(column=0, row=1)
-my_txt2.grid(column=2, row=1)
-# Button
-button = Button(text='Calculate', command=button_clicked)
-button.grid(column=1, row=2)
+km_label = Label(text='km')
+km_label.grid(column=2, row=2)
 
-
-# Entry
-input = Entry(width=10)
-input.grid(column=1, row=0)
+calculate_button = Button(text='Calculate', command=miles_to_km)
+calculate_button.grid(column=1, row=2)
 
 window.mainloop()
