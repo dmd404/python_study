@@ -27,6 +27,14 @@ print(nato_dict)
 # {"A": "Alfa", "B": "Bravo"}
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-user = input('Enter a word: ')
-user_nato = [nato_dict[letter.upper()] for letter in user]
-print(user_nato)
+def generate_phonetic():
+    user = input('Enter a word: ')
+    try:
+        user_nato = [nato_dict[letter.upper()] for letter in user]
+    except KeyError:
+        print('Sorry, only letters in the alphabet please.')
+        generate_phonetic()
+    else:
+        print(user_nato)
+
+generate_phonetic()
