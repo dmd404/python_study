@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4cd23254-0fb0-4f81-9ee7-26962f9ba0dd" name="Changes" comment="add total and weight method">
-      <change beforePath="$PROJECT_DIR$/17. Quiz/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/17. Quiz/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17. Quiz/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/17. Quiz/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17. Quiz/question_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/17. Quiz/question_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17. Quiz/quiz_brain.py" beforeDir="false" afterPath="$PROJECT_DIR$/17. Quiz/quiz_brain.py" afterDir="false" />
+    <list default="true" id="4cd23254-0fb0-4f81-9ee7-26962f9ba0dd" name="Changes" comment="generate random pwd and easy access with pyperclip">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python_study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_study.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +36,27 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/askn/github_dmd/python_study&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;Markdown&quot;,
+      &quot;Python&quot;
+    ]
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/28. pomodoro" />
+      <recent name="$PROJECT_DIR$/26. NATO_Alphabet" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/29. password_manager" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/hangman" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="classExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main (3)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,11 +64,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17. Quiz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27. Miles_To_KM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17. Quiz/classExample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27. Miles_To_KM/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/28. pomodoro" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28. pomodoro/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Object Oriented Programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/29. password_manager" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Object Oriented Programming/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/29. password_manager/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17. Quiz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/26. NATO_Alphabet" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17. Quiz/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/26. NATO_Alphabet/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +140,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="question_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="playground" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,32 +148,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/17. Quiz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/27. Miles_To_KM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/17. Quiz/question_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="wizcoin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CleanCode_PythonicOOP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CleanCode_PythonicOOP/wizcoin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/27. Miles_To_KM/playground.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.question_model" />
-        <item itemvalue="Python.classExample" />
-        <item itemvalue="Python.wizcoin" />
         <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.playground" />
+        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -169,118 +179,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679291248924</updated>
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1679292358974</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1679292358974</updated>
-    </task>
-    <task id="LOCAL-00002" summary="replace blanks to guessed letter if correct">
-      <created>1679294403662</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1679294403662</updated>
-    </task>
-    <task id="LOCAL-00003" summary="check if the user has won">
-      <created>1679294995124</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679294995124</updated>
-    </task>
-    <task id="LOCAL-00004" summary="check if the user has won">
-      <created>1679295080067</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1679295080067</updated>
-    </task>
-    <task id="LOCAL-00005" summary="count user's lives">
-      <created>1679295885732</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1679295885732</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add files">
-      <created>1679299959630</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1679299959630</updated>
-    </task>
-    <task id="LOCAL-00007" summary="clean up">
-      <created>1679300566579</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1679300566579</updated>
-    </task>
-    <task id="LOCAL-00008" summary="reformat code">
-      <created>1679539126444</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1679539126444</updated>
-    </task>
-    <task id="LOCAL-00009" summary="refactoring and calling calculate_score()">
-      <created>1679545013274</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1679545013274</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added conditional statements to check">
-      <created>1679546275238</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1679546275238</updated>
-    </task>
-    <task id="LOCAL-00011" summary="my version">
-      <created>1679551448887</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679551448887</updated>
-    </task>
-    <task id="LOCAL-00012" summary="update blackjack">
-      <created>1679551475864</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1679551475864</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ver.angela">
-      <created>1679556613133</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1679556613133</updated>
-    </task>
-    <task id="LOCAL-00014" summary="ver.angela">
-      <created>1679822355688</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1679822355688</updated>
-    </task>
-    <task id="LOCAL-00015" summary="OOP version coffee maker">
-      <created>1679986590897</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1679986590898</updated>
-    </task>
-    <task id="LOCAL-00016" summary="exercises on class, __init__, etc.">
-      <created>1680008861220</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1680008861220</updated>
     </task>
     <task id="LOCAL-00017" summary="create Question class">
       <created>1680231255993</created>
@@ -296,7 +194,336 @@
       <option name="project" value="LOCAL" />
       <updated>1680231271827</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="check for correct answers and track of score">
+      <created>1680441946911</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680441946911</updated>
+    </task>
+    <task id="LOCAL-00020" summary="used opentdb api to use new set of questions">
+      <created>1680442610299</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680442610299</updated>
+    </task>
+    <task id="LOCAL-00021" summary="practice using turtle">
+      <created>1680484247852</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680484247852</updated>
+    </task>
+    <task id="LOCAL-00022" summary="create readme file and complete challenge 3">
+      <created>1680487638057</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680487638057</updated>
+    </task>
+    <task id="LOCAL-00023" summary="draw 1.5 million dollar worth painting with python">
+      <created>1680509026146</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680509026146</updated>
+    </task>
+    <task id="LOCAL-00024" summary="create README.md">
+      <created>1680790517355</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1680790517355</updated>
+    </task>
+    <task id="LOCAL-00025" summary="create snake body">
+      <created>1680792744415</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680792744415</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update screen the move the snake forward">
+      <created>1680919394896</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1680919394896</updated>
+    </task>
+    <task id="LOCAL-00027" summary="refactor">
+      <created>1681020251286</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681020251286</updated>
+    </task>
+    <task id="LOCAL-00028" summary="snake movements with key binding">
+      <created>1681048488370</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681048488370</updated>
+    </task>
+    <task id="LOCAL-00029" summary="create direction CONSTANTS">
+      <created>1681222293511</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1681222293511</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add if conditionals to check snake heading">
+      <created>1681222549611</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1681222549611</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Create scoreboard and update score if the snake eats food">
+      <created>1681430203446</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1681430203446</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Detect collision with wall">
+      <created>1681430584148</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1681430584148</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Detect collision with tail">
+      <created>1681431306195</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1681431306195</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Change setheadings() =&gt; goto()">
+      <created>1681441202025</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1681441202025</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Create screen">
+      <created>1681453568288</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1681453568288</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Create and move a paddle">
+      <created>1681455806813</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1681455806813</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Create another paddle">
+      <created>1681457351104</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1681457351104</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Create the ball and make it move">
+      <created>1681458129107</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1681458129107</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Detect collision with wall and bounce">
+      <created>1681459851213</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1681459851213</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Detect collision with paddle">
+      <created>1681460707484</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1681460707484</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Detect when paddle misses">
+      <created>1681461620709</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1681461620709</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Record score and increase the speed of the ball each time it bounces off the paddle.">
+      <created>1681463473107</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1681463473107</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Initial screen set up">
+      <created>1681640593389</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1681640593389</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Detect collision with top wall">
+      <created>1681641529564</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1681641529564</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Move the turtle with key press">
+      <created>1681714932792</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1681714932792</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Create and move the cars">
+      <created>1681715757210</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1681715757210</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Detect when the player reaches the finish line and speed up the cars">
+      <created>1681717406357</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1681717406357</updated>
+    </task>
+    <task id="LOCAL-00048" summary="change MOVE_INCREMENT from 10 to 1">
+      <created>1681717790121</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1681717790121</updated>
+    </task>
+    <task id="LOCAL-00049" summary="dictionary comprehension and using pd to read csv">
+      <created>1682347708987</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1682347708987</updated>
+    </task>
+    <task id="LOCAL-00050" summary="first tkinter GUI">
+      <created>1682431349792</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1682431349792</updated>
+    </task>
+    <task id="LOCAL-00051" summary="label, button, entry">
+      <created>1682433808241</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1682433808241</updated>
+    </task>
+    <task id="LOCAL-00052" summary="padx, pady, grid">
+      <created>1682434658458</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1682434658458</updated>
+    </task>
+    <task id="LOCAL-00053" summary="mile to km converter &#10;TODO. 2 decimal places">
+      <created>1682601699263</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1682601699264</updated>
+    </task>
+    <task id="LOCAL-00054" summary="refinements">
+      <created>1682642260194</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1682642260195</updated>
+    </task>
+    <task id="LOCAL-00055" summary="UI setup">
+      <created>1682642772902</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1682642772902</updated>
+    </task>
+    <task id="LOCAL-00056" summary="place image on screen and change bg color">
+      <created>1682643397317</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1682643397317</updated>
+    </task>
+    <task id="LOCAL-00057" summary="complete user interface">
+      <created>1682644311688</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1682644311688</updated>
+    </task>
+    <task id="LOCAL-00058" summary="countdown mechanism implemented">
+      <created>1682645471885</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1682645471885</updated>
+    </task>
+    <task id="LOCAL-00059" summary="set up timer">
+      <created>1682648893596</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1682648893596</updated>
+    </task>
+    <task id="LOCAL-00060" summary="reset function">
+      <created>1682649960097</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1682649960097</updated>
+    </task>
+    <task id="LOCAL-00061" summary="setting logo image">
+      <created>1685067100458</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1685067100459</updated>
+    </task>
+    <task id="LOCAL-00062" summary="complete UI setup">
+      <created>1685069243676</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1685069243676</updated>
+    </task>
+    <task id="LOCAL-00063" summary="save data to file">
+      <created>1685083829173</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1685083829173</updated>
+    </task>
+    <task id="LOCAL-00064" summary="use messagebox">
+      <created>1685085223687</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1685085223687</updated>
+    </task>
+    <task id="LOCAL-00065" summary="generate random pwd and easy access with pyperclip">
+      <created>1685086932534</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1685086932534</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,23 +538,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="replace blanks to guessed letter if correct" />
-    <MESSAGE value="check if the user has won" />
-    <MESSAGE value="count user's lives" />
-    <MESSAGE value="add files" />
-    <MESSAGE value="clean up" />
-    <MESSAGE value="reformat code" />
-    <MESSAGE value="refactoring and calling calculate_score()" />
-    <MESSAGE value="added conditional statements to check" />
-    <MESSAGE value="my version" />
-    <MESSAGE value="update blackjack" />
-    <MESSAGE value="ver.angela" />
-    <MESSAGE value="OOP version coffee maker" />
-    <MESSAGE value="exercises on class, __init__, etc." />
-    <MESSAGE value="create Question class" />
-    <MESSAGE value="add total and weight method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add total and weight method" />
+    <MESSAGE value="Detect when paddle misses" />
+    <MESSAGE value="Record score and increase the speed of the ball each time it bounces off the paddle." />
+    <MESSAGE value="Initial screen set up" />
+    <MESSAGE value="Detect collision with top wall" />
+    <MESSAGE value="Move the turtle with key press" />
+    <MESSAGE value="Create and move the cars" />
+    <MESSAGE value="Detect when the player reaches the finish line and speed up the cars" />
+    <MESSAGE value="change MOVE_INCREMENT from 10 to 1" />
+    <MESSAGE value="dictionary comprehension and using pd to read csv" />
+    <MESSAGE value="first tkinter GUI" />
+    <MESSAGE value="label, button, entry" />
+    <MESSAGE value="padx, pady, grid" />
+    <MESSAGE value="mile to km converter &#10;TODO. 2 decimal places" />
+    <MESSAGE value="refinements" />
+    <MESSAGE value="UI setup" />
+    <MESSAGE value="place image on screen and change bg color" />
+    <MESSAGE value="complete user interface" />
+    <MESSAGE value="countdown mechanism implemented" />
+    <MESSAGE value="set up timer" />
+    <MESSAGE value="reset function" />
+    <MESSAGE value="setting logo image" />
+    <MESSAGE value="complete UI setup" />
+    <MESSAGE value="save data to file" />
+    <MESSAGE value="use messagebox" />
+    <MESSAGE value="generate random pwd and easy access with pyperclip" />
+    <option name="LAST_COMMIT_MESSAGE" value="generate random pwd and easy access with pyperclip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -336,6 +572,16 @@
           <url>file://$PROJECT_DIR$/hangman/hangman.py</url>
           <line>35</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/26. NATO_Alphabet/main.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/27. Miles_To_KM/playground.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
